@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    include: mail
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/email?createDatabaseIfNotExist=true
+    username: email
+    password: e1234
